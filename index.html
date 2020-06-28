@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+    />
+    <title>Filtro</title>
+  </head>
+  <body>
+    <section class="productos">
+      <div class="contenedor flex">
+        <h2 class="titulo-principal">
+          Buscador
+        </h2>
+        <div class="contenedor-botones flex">
+          <div class="contenedor-buscador flex">
+            <input
+              type="search"
+              name=""
+              id=""
+              class="buscador"
+              placeholder="Buscar Marca.."
+            />
+            <button class="btn-search">Buscar</button>
+          </div>
+          <button class="btn-marcas" data-filter="todos">TODOS</button>
+          <button class="btn-marcas" data-filter="bmw">BMW</button>
+          <button class="btn-marcas" data-filter="audi">AUDI</button>
+          <button class="btn-marcas" data-filter="mercedes">MERCEDES</button>
+          <button class="btn-marcas" data-filter="ferrari">FERRARI</button>
+        </div>
+        <div class="contenedor-cartas flex">
+          <div class="cartas flex" data-item="ferrari">
+            <div class="img-auto">
+              <img src="./images/red-ferrari-337909.jpg" alt="" />
+            </div>
+            <h3 class="marca flex">Ferrari</h3>
+          </div>
+          <div class="cartas" data-item="mercedes">
+            <div class="img-auto">
+              <img src="./images/mercedes-04.jpg" alt="" />
+            </div>
+            <h3 class="marca flex">Mercedes</h3>
+          </div>
+          <div class="cartas" data-item="bmw">
+            <div class="img-auto">
+              <img src="./images/bmw-01.jpg" alt="" />
+            </div>
+            <h3 class="marca flex">Bmw</h3>
+          </div>
+          <div class="cartas" data-item="audi">
+            <div class="img-auto">
+              <img src="./images/audi-03.jpg" alt="" />
+            </div>
+            <h3 class="marca flex">Audi</h3>
+          </div>
+          <div class="cartas" data-item="bmw">
+            <div class="img-auto">
+              <img src="./images/bmw-02.jpg" alt="" />
+            </div>
+            <h3 class="marca flex">Bmw</h3>
+          </div>
+          <div class="cartas" data-item="audi">
+            <div class="img-auto">
+              <img src="./images/audi-01.jpg" alt="" />
+            </div>
+            <h3 class="marca flex">Audi</h3>
+          </div>
+          <div class="cartas" data-item="mercedes">
+            <div class="img-auto">
+              <img src="./images/mercedes-01.jpg" alt="" />
+            </div>
+            <h3 class="marca flex">Mercedes</h3>
+          </div>
+          <div class="cartas" data-item="audi">
+            <div class="img-auto">
+              <img src="./images/audi-02.jpg" alt="" />
+            </div>
+            <h3 class="marca flex">Audi</h3>
+          </div>
+          <div class="cartas" data-item="mercedes">
+            <div class="img-auto">
+              <img src="./images/mercedes-02.jpg" alt="" />
+            </div>
+            <h3 class="marca flex">Mercedes</h3>
+          </div>
+          <div class="cartas" data-item="mercedes">
+            <div class="img-auto">
+              <img src="./images/mercedes-03.jpg" alt="" />
+            </div>
+            <h3 class="marca flex">Mercedes</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="js/app.js"></script>
+  </body>
+</html>
